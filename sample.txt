@@ -1,0 +1,37 @@
+Resume Sample  (Software Engineering, M.S.)
+Im A. Spartan
+San Jose, CA 95192 | (408) 555-5555 | imaspartan@gmail.com | linkedin/in/imaspartan
+OBJECTIVE: Seeking full-time position in software quality assurance 
+EDUCATION
+M.S., Software Engineering                    May 20XX
+San José State University, San José, CA
+B.E., Computer Engineering                     Jun 20XX
+Gujarat Technological University, Ahmedabad, India
+TECHNICAL SKILLS 
+Programming Languages: Strong foundation in Java, C++, SQL, JavaScript, Design Patterns
+Operating Systems: Linux, Windows 10/Vista/XP
+Databases : MySQL, DB2
+Software: Selenium Suite, Agile Methodologies, Git
+Remote: Google Meets, Discord, Zoom, Slack
+EXPERIENCE
+Testing Technology Intern (Remote) , Matryx, San Jose, CA         Summer 20XX
+• Expanded limited framework for automated test execution
+• Involved in unit testing and reporting problems to development team through Discord
+• Tested in various environments: Python, Java, XM
+• Prepared unit test plans providing successful debugging efforts and monitored progress through weekly meetings with 
+supervisor via Google Meets
+PROJECT EXPERIENCE
+Disaster Management Recovery , SJSU             Spring 20XX
+• Monitored the health of virtual machines running at a site
+• Assessed failure analysis and determined the site/host to restart each failed virtual machine
+• Gathered CPU, I/O and networking for a virtual machine and determined the threshold for system management
+• Explored capabilities offered by VMware hypervisor and API
+Classification of Unstructured Data, SJSU                  Fall 20XX
+• Automated classification process for unstructured data (text documents), using K-nearest neighbor algorithm and 
+Novel K-nearest neighbor algorithm
+• Performed comparisons using Reuters data set on factors precision, recall, accuracy and error rate
+iPhone Game Development, Self-directed freelance project                Fall 20XX
+• Developed game for iPhone app, gaining experience in iPhone SDK and interface builder
+ACTIVITIES 
+Member, Software and Computer Engineering Society (SCE)              Aug 20XX - Present
+Volunteer, Sacred Heart Community Center                 Jan 20XX - Present
