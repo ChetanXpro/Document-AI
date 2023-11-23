@@ -2,7 +2,7 @@
 
 PDF Data Extractor is a Python utility that lets users extract data from any PDF files. The user simply needs to define a schema that provides a structure for the data to be extracted.
 
- - For javascript implementation of this project checkout to `feat/javascript-implementation`
+ - For javascript implementation of this project checkout to `(feat/javascript-implementation)[https://github.com/ChetanXpro/extract-data-from-pdf/tree/feat/javascript-implementation]`
 
 ## Getting Started
 
