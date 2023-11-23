@@ -21,19 +21,16 @@ You will need Python installed on your system to run this program.
 Define the schema for the data you're looking to extract from the PDF file. Here's an example:
 
 ```python
-schema = {
-    "properties": {
-        "pdfType": {"type": "string"},
-        "name": {"type": "string"},
-        "email": {"type": "string"},
-        "skills": {"type": "array", "items": {"type": "string"}},
-    },
-    "required": ["name", "email","pdfType","skills"],
-}
+const zodSchema = z.object({
+  name: z.string(),
+  address: z.string(),
+  ssn: z.string(),
+  employer: z.string(),
+  wages: z.number(),
+});
 ```
 
-The function extract_resume(), loads the PDF document for processing, runs the extraction chain, and writes the extracted data to sample.json file.
-``` bash
-if __name__ == "__main__":
-    extract_resume()
+To run this script
+```
+node index.js
 ```
