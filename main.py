@@ -8,47 +8,32 @@ load_dotenv()
 
 
 def extract_resume():
-    # Schema
+    # Schema to extract some details from W2 form
     schema = {
         "properties": {
-            "pdfType": {"type": "string"},
-            "name": {"type": "string"},
-            "email": {"type": "string"},
-            "skills": {"type": "array", "items": {"type": "string"}},
+            "DocumentClassification": {"type": "string"},
+            "employer": {"type": "string"},
+            "employee": {"type": "string"},
+            "wages": {"type": "string"},
+            "socialSecurityWages": {"type": "string"},
+            "socialSecurityTax": {"type": "string"},
+            "medicareWages": {"type": "string"},
+            "medicareTax": {"type": "string"},
         },
-        "required": ["name", "email", "pdfType", "skills"],
+        "required": [
+            "DocumentClassification",
+            "employer",
+            "employee",
+            "wages",
+            "socialSecurityWages",
+            "socialSecurityTax",
+            "medicareWages",
+            "medicareTax",
+        ],
     }
-    # Schema to extract some details from W2 form
-    # schema = {
-    #     "properties": {
-    #         "DocumentClassification": {"type": "string"},
-    #         "employer": {"type": "string"},
-    #         "employee": {"type": "string"},
-    #         "wages": {"type": "string"},
-    #         "socialSecurityWages": {"type": "string"},
-    #         "socialSecurityTax": {"type": "string"},
-    #         "medicareWages": {"type": "string"},
-    #         "medicareTax": {"type": "string"},
-    #     },
-    #     "required": [
-    #         "DocumentClassification",
-    #         "employer",
-    #         "employee",
-    #         "wages",
-    #         "socialSecurityWages",
-    #         "socialSecurityTax",
-    #         "medicareWages",
-    #         "medicareTax",
-    #     ],
-    # }
     # Load documents for processing
-    loader = PyPDFLoader("sample_resume.pdf")
+    loader = PyPDFLoader("W2.pdf")
     documents = loader.load()
-
-    with open("sample.txt", "w") as outfile:
-        outfile.write(str(documents[0].page_content))
-
-    return
 
     # Run chain
     llm = ChatOpenAI(
