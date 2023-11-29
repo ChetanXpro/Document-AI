@@ -1,34 +1,7 @@
 import { z } from 'zod'
-export type DocumentKeys =
-	| 'Consolidated 1099'
-	| 'W2'
-	| '1099 INT'
-	| '1099 DIV'
-	| 'W2 G'
-	| '1099 G'
-	| '1099 Q'
-	| 'SSA/RRB 1099'
-	| '1099 MISC'
-	| '1099 NEC'
-	| '1099 K'
-	| 'Form 2439'
-	| '1099 R'
-	| '1099 SA'
-	| '1098 E'
-	| 'Form 1098'
-	| '1098 T'
-	| 'K 1'
-	| '1095 A'
-	| '1099 B'
-	| 'Old Tax Returns'
-	| 'Form 5498 SA'
-	| '1099 A'
-	| '1099 C'
-	| '1099 S'
-	| '1099 LTC'
-	| 'Charitable Donations'
-	| 'Non-Cash Donations'
-	| 'Brokerage Statement'
+
+// Define all document types here
+export type DocumentKeys = 'W2' | '1099 INT'
 
 export type DocumentSchemas = {
 	[K in DocumentKeys]: z.ZodObject<any>
